@@ -10,6 +10,11 @@ public class Main {
 
         Configuration config = new Configuration();
 
+        /*
+        Search "sphinx knowledge base generator" in google to convert command.txt file into
+        .dic and .lm (Dictionary and language)
+         */
+
         config.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
         config.setDictionaryPath("src\\main\\resources\\1481.dic");
         config.setLanguageModelPath("src\\main\\resources\\1481.lm");
